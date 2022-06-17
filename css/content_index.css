@@ -1,0 +1,146 @@
+/* ------ Content Index ------ */
+
+#content h2 {
+	font-size: 1.5rem;
+	color: #000000;
+	text-align: right;
+	margin-bottom: 1.5rem;
+}
+
+#content h3 {
+	font-size: 1.125rem;
+	color: #2e2e2e;
+}
+
+#content h4 {
+	font-size: 1rem;
+	font-weight: bold;
+	color: #f76850;
+}
+
+#content p {
+	font-family: Tahoma;
+	color: #7f7f7f;
+}
+
+.row1 p {
+	font-size: 0.875rem;
+	line-height: 1.75rem;
+}
+
+.row1 > div {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.row1 img {
+	width: auto;
+	height: 64px;
+}
+
+.row2 {
+	padding-top: 5.5rem;
+}
+
+.row2 div {
+	text-align: right;
+}
+
+.row2 p, .row3 p {
+	font-size: 0.75rem;
+	line-height: 1.4rem;
+}
+
+.light {
+	margin: 0 20px 0 0;
+	font-size: 0.875rem;
+	color: #767676;
+}
+
+.card {
+	background-color: #fff;
+  	background-clip: border-box;
+  	border: none;
+}
+
+.card-body {
+	padding: 0.5rem 0 1.25rem;
+}
+
+.card a {
+	text-decoration: none;
+}
+
+.img-shadow {
+	box-shadow: 0px 9px 60px -16px rgba(0, 0, 0, 0.4);
+}
+
+.row3 {
+	padding-top: 5rem;
+}
+
+.card-date {
+	font-size: 0.75rem !important;
+	color: #474747 !important;
+}
+
+.rounded-circle {
+	width: 70px;
+	height: 70px;
+	border: 3px solid #ff735c;
+}
+
+.row3 .card-body {
+	padding: 1.5rem 0 1.25rem;
+}
+
+.media-body {
+	padding-right: 1.375rem;
+}
+
+.media-date {
+	text-align: center;
+	padding-top: 0.5rem;
+	border-bottom: 2px solid #f76850;
+}
+
+.media-date-day {
+	font-size: 1.875rem !important;
+	font-weight: bold !important;
+	color: #4f4f4f !important;
+	padding: 0 1.125rem !important;
+	margin: 0 0 3px 0 !important;
+}
+
+.media-date-month {
+	font-size: 0.9375rem !important;
+	margin-bottom: 0.5rem !important;
+}
+
+.media-author {
+	font-family: Tahoma;
+	font-size: 0.75rem;
+	color: #474747;
+}
+
+.media-author a, .media-author i {
+	color: #f8725c;
+}
+
+.row4 {
+	padding-top: 3.75rem;
+}
+
+.row4 div {
+	text-align: right;
+}
+
+.row4 img {
+	width: 75%;
+}
+
+@media (min-width: 992px) {
+	.row4 img {
+		width: 100%;
+	}
+}

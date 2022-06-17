@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html dir="RTL">
+<head>
+	<title>برمجة</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/vendor/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/content_index.css" />
+</head>
+<body>
+
+
+<!------ navBar ------>
+
+<header id="navBar" class="top-nav-border bottom-nav-border position-relative">
+  <div class="container">
+    <hr class="navbar-hr">
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light px-0 pb-0">
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-button" onclick="navToggleFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav p-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><i class="fas fa-award"></i> الرئيسية </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page1.html"><i class="fas fa-bezier-curve"></i> فريق العمل</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"   aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-bag"></i> 
+              برامج
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">برنامج 1</a>
+              <a class="dropdown-item" href="#">برنامج 2</a>
+              <a class="dropdown-item" href="#">برنامج 3</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html"><i class="fas fa-award"></i> الاقسام</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-bezier-curve"></i> اتصل بنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i> تواصل</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i> تسوق</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="far fa-thumbs-down"></i> معطل</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div> 
+</header>
+
+
+<!------ Header ------>
+
+<header id="header" class="header-top position-relative my-1">
+
+  <img src="resources/imgs/index/bg_layer_2.png" class="bg-layer-2">
+
+  <div class="container">
+    <div class="row">  <!-- LTR -->
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-5 py-5 py-sm-0 ml-auto bio" dir="RTL">  <!-- RTL -->
+        <div class="bio-h2 text-center">
+          <h2>نهتم بكل ماهو جديد لموظفينا</h2>
+        </div>
+        <div class="text-right">
+          <p>تعتبر البرمجية المستعملة من اقوى البرمجيات الموجودة و من ميزات مجلة جملة و التي هي الاخيرة و البرمجة الحديثة من ايتش تي الميزات البرمجية للموقع</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-md-0">
+        <div class="flex-column orange">
+
+          <div class="top-orange padding">
+            <img src="resources/imgs/index/femtolayer-1.png" class="w-100">
+          </div>
+
+          <div class="bottom-orange padding pb-20">
+            <p><i class="fab fa-whatsapp"></i>&nbsp&nbsp+20 109 662 020 9</p>
+            <p><i class="far fa-envelope-open"></i>&nbsp&nbspinfo@femtolayer.com/</p>
+            <div class="socials-orange">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href=""><i class="fab fa-skype"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="orange-form mt-3 padding text-right" dir="RTL"> <!-- RTL -->
+            <label for=""><i class="fas fa-search"></i> البحث في داخل الموقع</label>
+            <form class="form-inline">
+              <input class="form-control" type="search" placeholder="" aria-label="Search">
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<hr class="header-hr-content">
+
+<!------ Content ------>
+
+<div id="content">
+  <div class="container">
+
+    <!--- ROW 1 --->
+    <div class="row row1">
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="w-100 mb-4">
+          <img src="resources/imgs/content_index/row1/index_1_desklight.png">
+        </div>
+        <h3>الجـــــودة</h3>
+        <p>دعونا نرى ما يحب أو يرغب أو يسعى الألم، ولكن في بعض الأحيان تحدث بسبب الظروف التي الكدح والألم يمكن شراء له بعض السرور.</p>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="w-100 mb-4">
+          <img src="resources/imgs/content_index/row1/index_1_sun.png">
+        </div>
+        <h3>الجـــــودة</h3>
+        <p>دعونا نرى ما يحب أو يرغب أو يسعى الألم، ولكن في بعض الأحيان تحدث بسبب الظروف التي الكدح والألم يمكن شراء له بعض السرور.</p>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="w-100 mb-4">
+          <img src="resources/imgs/content_index/row1/index_1_pen.png">
+        </div>
+        <h3>الجـــــودة</h3>
+        <p>دعونا نرى ما يحب أو يرغب أو يسعى الألم، ولكن في بعض الأحيان تحدث بسبب الظروف التي الكدح والألم يمكن شراء له بعض السرور.</p>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="w-100 mb-4">
+          <img src="resources/imgs/content_index/row1/index_1_desklight.png">
+        </div>
+        <h3>الجـــــودة</h3>
+        <p>دعونا نرى ما يحب أو يرغب أو يسعى الألم، ولكن في بعض الأحيان تحدث بسبب الظروف التي الكدح والألم يمكن شراء له بعض السرور.</p>
+      </div>
+
+    </div>
+
+    <!--- ROW 2 --->
+    <div class="row row2">
+      
+      <div class="col-12 col-md-9">
+       <h2>ماهو جديدنا<span class="light">المتاحة حاليا من الشركة</span></h2>
+
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 pt-0 pt-md-0">
+            <div class="card">
+              <a href="">
+                <img src="resources/imgs/content_index/cards/1.jpg" class="rounded img-fluid" alt="">
+              </a>
+              <div class="card-body">
+                <a href="">
+                  <h4 class="card-title">عقد دونك ماتيس انتركم</h4>
+                </a>
+                <p class="card-date"><i class="far fa-calendar-alt"></i> Jun 10, 2012</p>
+
+                <p class="card-text"> الموضوع الصناعية سيكون لها ظهور كبير على شاشات كبيرة على دقة سطح المكتب، وكذلك على شاشات مختلف الأجهزة المحمولة، بما في ذلك المتصفحات المعاصرة سواء!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 pt-5 pt-sm-0 pt-md-0">
+            <div class="card">
+              <a href="">
+                <img src="resources/imgs/content_index/cards/2.jpg" class="rounded img-fluid" alt="">
+              </a>
+              <div class="card-body">
+                <a href="">
+                  <h4 class="card-title">عقد دونك ماتيس انتركم</h4>
+                </a>
+                <p class="card-date"><i class="far fa-calendar-alt"></i> Jun 10, 2012</p>
+
+                <p class="card-text"> الموضوع الصناعية سيكون لها ظهور كبير على شاشات كبيرة على دقة سطح المكتب، وكذلك على شاشات مختلف الأجهزة المحمولة، بما في ذلك المتصفحات المعاصرة سواء!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 pt-5 pt-sm-3 pt-md-0 m-auto">
+            <div class="card">
+              <a href="">
+                <img src="resources/imgs/content_index/cards/3.jpg" class="rounded img-fluid" alt="">
+              </a>
+              <div class="card-body">
+                <a href="">
+                  <h4 class="card-title">عقد دونك ماتيس انتركم</h4>
+                </a>
+                <p class="card-date"><i class="far fa-calendar-alt"></i> Jun 10, 2012</p>
+
+                <p class="card-text"> الموضوع الصناعية سيكون لها ظهور كبير على شاشات كبيرة على دقة سطح المكتب، وكذلك على شاشات مختلف الأجهزة المحمولة، بما في ذلك المتصفحات المعاصرة سواء!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-12 col-md-3 pt-4 pt-sm-3 pt-lg-0 text-center">
+        <a href="https://te.eg/" target="_blank">
+          <img src="resources/imgs/content_index/ads/ads1.jpg" alt="add image" class="img-fluid img-shadow">
+        </a>
+      </div>
+
+    </div>
+
+    <!--- ROW 3 --->
+    <div class="row row3">
+      
+      <div class="col-12 col-md-6">
+        <h2>فريق العمل</h2>
+
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 px-50 px-sm-0">
+            <div class="card text-center">
+              <a href="">
+                <img src="resources/imgs/content_index/cards/row3.png" class="rounded-circle" alt="">
+              </a>
+              <div class="card-body">
+                <a href="">
+                  <h4 class="card-title">محمد صلاح الدين</h4>
+                </a>
+
+                <p class="card-text"> الموضوع الصناعية سيكون لها الأجهزة المحمولة، بما في ذلك المتصفحات المعاصرة سواء!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 px-50 px-sm-0 pt-4 pt-sm-0">
+            <div class="card text-center">
+              <a href="">
+                <img src="resources/imgs/content_index/cards/row3.png" class="rounded-circle" alt="">
+              </a>
+              <div class="card-body">
+                <a href="">
+                  <h4 class="card-title">محمد صلاح الدين</h4>
+                </a>
+
+                <p class="card-text"> الموضوع الصناعية سيكون لها الأجهزة المحمولة، بما في ذلك المتصفحات المعاصرة سواء!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 px-50 px-sm-0 pt-4 pt-md-0 m-auto">
+            <div class="card text-center">
+              <a href="">
+                <img src="resources/imgs/content_index/cards/row3.png" class="rounded-circle" alt="">
+              </a>
+              <div class="card-body">
+                <a href="">
+                  <h4 class="card-title">محمد صلاح الدين</h4>
+                </a>
+
+                <p class="card-text"> الموضوع الصناعية سيكون لها الأجهزة المحمولة، بما في ذلك المتصفحات المعاصرة سواء!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 pt-80 pt-md-0">
+        <h2>الأخبار</h2>
+
+        <div class="media text-right mb-4">
+          <div class="media-date">
+            <p class="media-date-day">12</p>
+            <p class="media-date-month">AUG</p>
+          </div>
+          <div class="media-body">
+            <a href=""><h4 class="mt-0">عقد دونك ماتيس انتركم</h4></a>
+            <div>
+              <div class="media-author">
+                <i class="fas fa-user-circle"></i><span> المقال بواسطة : </span><a href="#">الأدمن</a><i class="far fa-calendar-alt mr-3"></i><span> Jun 10, 2012</span>
+              </div>
+            </div>
+            <p>لاعبي كرة السلة في المنافسة الدولية في الشرطة المحلية الذين يخشون. كرة القدم النقي. طائرة أو تي في لاند. لانه قبل كان يستحق ذلك، ولكن انها مجرد خال من، في بعض الأحيان التمويل القوس ....</p>
+          </div>
+        </div>
+
+        <div class="media text-right">
+          <div class="media-date">
+            <p class="media-date-day">12</p>
+            <p class="media-date-month">AUG</p>
+          </div>
+          <div class="media-body">
+            <a href=""><h4 class="mt-0">عقد دونك ماتيس انتركم</h4></a>
+            <div>
+              <div class="media-author">
+                <i class="fas fa-user-circle"></i><span> المقال بواسطة : </span><a href="#">الأدمن</a><i class="far fa-calendar-alt mr-3"></i><span> Jun 10, 2012</span>
+              </div>
+            </div>
+            <p>لاعبي كرة السلة في المنافسة الدولية في الشرطة المحلية الذين يخشون. كرة القدم النقي. طائرة أو تي في لاند. لانه قبل كان يستحق ذلك، ولكن انها مجرد خال من، في بعض الأحيان التمويل القوس ....</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--- ROW 4 --->
+    <div class="row4">
+      <h2>من اهم عملائنا</h2>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-2 pt-3 pt-md-4">
+          <img src="resources\imgs\content_index\fam_customers/wordpress_logo.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 pt-3 pt-md-4">
+          <img src="resources/imgs/content_index/fam_customers/wordpress_logo.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 pt-3 pt-md-4">
+          <img src="resources/imgs/content_index/fam_customers/wordpress_logo.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 pt-3 pt-md-4">
+          <img src="resources/imgs/content_index/fam_customers/wordpress_logo.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 pt-3 pt-md-4">
+          <img src="resources/imgs/content_index/fam_customers/wordpress_logo.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 pt-3 pt-md-4">
+          <img src="resources/imgs/content_index/fam_customers/wordpress_logo.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!------ Footer ------>
+
+<footer id="footer1">
+  <div class="container">
+    <div class="row pb-4">
+
+      <div class="col-12 col-md-4">
+        <h2>من نحن</h2>
+        <p>بعض المعلومات عن الشركة</p>
+        <div class="w-100 text-center">
+          <a href=""><img src="resources/imgs/index/femtolayer-1.png" class="f-femto-logo"></a>
+        </div>
+        <p>
+         دعونا نرى ما يحب أو يرغب أو يسعى الألم، ولكن في بعض الأحيان تحدث بسبب الظروف التي الكدح والألم يمكن شراء له بعض السرور. لنأخذ مثالا تافها، والتي تتعهد منا من أي وقت مضى التمارين البدنية الشاقة، إلا الحصول على بعض المزايا من ذلك. 
+       </p>
+      </div>
+
+      <div class="col-12 col-md-3 offset-1">
+        <h2>معرض الصور</h2>
+        <p>بعض المعلومات عن الشركة</p>
+        <div class="row px-0 mt-40">
+          <div class="col-4 imgs"><a href=""><img src="http://via.placeholder.com/64x64" class="img-thumbnail"></a></div>
+          <div class="col-4 imgs"><a href=""><img src="http://via.placeholder.com/64x64" class="img-thumbnail"></a></div>
+          <div class="col-4 imgs"><a href=""><img src="http://via.placeholder.com/64x64" class="img-thumbnail"></a></div>
+          <div class="col-4 imgs"><a href=""><img src="http://via.placeholder.com/64x64" class="img-thumbnail"></a></div>
+          <div class="col-4 imgs"><a href=""><img src="http://via.placeholder.com/64x64" class="img-thumbnail"></a></div>
+          <div class="col-4 imgs"><a href=""><img src="http://via.placeholder.com/64x64" class="img-thumbnail"></a></div>
+          <div class="col-4 imgs"><a href=""><img src="http://via.placeholder.com/64x64" class="img-thumbnail"></a></div>
+          <div class="col-4 imgs"><a href=""><img src="http://via.placeholder.com/64x64" class="img-thumbnail"></a></div>
+          <div class="col-4 imgs"><a href=""><img src="http://via.placeholder.com/64x64" class="img-thumbnail"></a></div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <h2>الاتصال السريع</h2>
+        <p>بعض المعلومات عن الشركة</p>
+
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>الهاتف</td>
+              <td>00201096620209</td>
+            </tr>
+            <tr>
+              <td>الفاكس</td>
+              <td>0020100181294</td>
+            </tr>
+            <tr> 
+              <td>البريد الالكتروني</td>
+              <td class="mail">abu.gassem@gmail.com</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+         دعونا نرى ما يحب أو يرغب أو يسعى الألم، ولكن في بعض الأحيان تحدث بسبب الظروف التي الكدح والألم يمكن شراء له بعض السرور. لنأخذ مثالا تافها، والتي تتعهد منا من أي وقت مضى التمارين البدنية الشاقة، إلا الحصول على بعض المزايا من ذلك. 
+       </p>
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<footer id="footer2">
+  <div class="container">
+    <div class="row position-relative">
+
+      <div class="col-12 col-md-6 pr-0 pr-lg-1 footer-div-right">
+        <nav class="nav navbar-dark">
+              <a class="nav-item nav-link" href="#">الأقسام</a>
+              <a class="nav-item nav-link" href="#">من نحن</a>
+              <a class="nav-item nav-link" href="#">اتصل بنا</a>
+              <a class="nav-item nav-link" href="#">الأقسام</a>
+              <a class="nav-item nav-link" href="#">من نحن</a>
+              <a class="nav-item nav-link" href="#">اتصل بنا</a>
+              <a class="nav-item nav-link" href="#">الأقسام</a>
+              <a class="nav-item nav-link" href="#">من نحن</a>
+        </nav>
+
+        <div class="bottom-footer pb-20 text-right">
+          <div class="socials-footer">
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-skype"></i></a>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+          </div>
+         </div>
+      </div>
+
+      <div class="col-12 col-md-6 footer-div-hidden"></div>
+
+      <div class="col-12 col-md-5 align-self-start">
+        <h2>الحقوق</h2>
+        <p>جميع حقوق التصميم و التكويد و البرمجة محفوظة لشركة الدقه الرقمية  ولا يصرح بنسخ او اقتباس اي شيء من التصميم او البرمجة</p>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
